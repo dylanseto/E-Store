@@ -1,0 +1,128 @@
+body
+{
+	background-color:#ededed;
+}
+#topBanner
+{
+	background-color:black;
+	color:white;
+	font-size:50px;
+	height:60px;
+	width:110%;
+	margin-left:-8px;
+	margin-top:-10px;
+}
+
+#topBanner p
+{
+	display:inline-block;
+	margin-left:20px;
+	margin-top:-30px;
+}
+
+#topBanner #clock
+{
+	margin-right:500px;
+	margin-top:-110px;
+}
+
+#sideMenu
+{
+	position:absolute;
+	background-color:#ddd;
+	color:black;
+	text-decoration:none;
+	border-top-color:black;
+	border-top-style:solid;
+	border-right-style:solid;
+	border-right-color: black;
+	border-top-size:2px;
+	width:150px;
+	height:100%;
+	margin-top:-1px;
+	margin-left:-8px;
+}
+
+#sideMenu a
+{
+	text-decoration:none;
+	font-family:Gillsans,sans-serif;
+	color:black;
+}
+
+#sideMenu a:hover
+{
+	text-decoration:none;
+	font-family:Gillsans,sans-serif;
+	color:grey;
+}
+
+#content
+{
+	position:absolute;
+	argin-top:-550px;
+	margin-left:200px;
+	width:1000px;;
+	height:100%;
+	font-family: Gillsans,sans-serif;
+}
+
+#content h1
+{
+	font-weight:bold;
+}
+
+#footer
+{
+	position:fixed;
+	display:inline;
+	background-color:black;
+	bottom:0;
+	margin-left:-8px;
+	height:60px;
+	width:110%;
+}
+
+#footer a
+{
+	color:white;
+	text-decoration:none;
+	display:inline-block;
+	padding-top:20px;
+	padding-left:5px;
+	margin-left:10px;
+}
+
+#footer a:hover
+{
+	color:grey;
+}
+
+img
+{
+	height: 300px;
+}
+#content ul
+{
+	list-style:none;
+	overflow: hidden;
+}
+#content li
+{
+	display: inline;
+	float:left;
+	width:300px;
+}
+.Items p
+{
+	font-size:14px;
+	text-align:center;
+	font-family: Gillsans,sans-serif;
+	color: #252525;
+	margin-right:65px;
+}
+
+button
+{
+	margin-left:70px;
+}
